@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@700&family=Lobster&display=swap');
+
+* {
+    font-family: 'Bree Serif', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', sans-serif;
+}
+
+* {
+    margin: 0%;
+    background-color: rgb(196, 251, 255);
+}
+
+.main {
+    width: 95vw;
+    height: 105vh;
+    border: 8px solid rgb(129, 95, 95);
+    border-radius: 30px;
+    
+}
+
+.head {
+    text-align: center;
+    margin: 30px;
+    color: rgb(71, 61, 61);
+}
+
+ul {
+    border-top: 5px solid rgb(61, 43, 43);
+    border-bottom: 5px solid rgb(99, 70, 70);
+    padding: 25px;
+    margin: 30px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgba(5, 4, 4, 0.76);
+    font-size: large;
+    transition: transform 200ms;
+}
+
+
+
+a:hover {
+    transform: scale3d(1);
+    border-bottom: 2px solid rgb(26, 116, 86);
+}
+
+#piano1 {
+    width: 25%;
+    height: 5%;
+}
+
+#piano2 {
+    width: 25%;
+}
+
+#piano3 {
+    width: 25%;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    width: 600px; 
+    margin: 20px auto 20px auto; 
+    font-weight: normal;
+color: rgb(83, 141, 141);
+}
+   
